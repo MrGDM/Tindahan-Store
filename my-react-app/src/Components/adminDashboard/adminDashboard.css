@@ -1,0 +1,111 @@
+div.Left-container {
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 580px;
+    width: 400px;
+    background-color: #BDCDD6;
+    margin-right: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.right-container {
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 580px;
+    width: 930px;
+    margin-left: 5px;
+    background-color: #6096B4;
+    
+}
+
+div.image-container {
+    position:absolute;
+    border-radius: 10px;
+    margin-top: -250px;
+    height: 250px;
+    width: 250px;
+    background-color: #93BFCF;
+}
+div.details-container {
+    position: absolute;
+    background-color: #D9D9D9;
+    width: 350px;
+    margin-top: 220px;
+    border-radius: 20px;
+}
+
+
+.text-item, .text-item2 {
+    margin: 0;
+}
+
+.text-item {
+    position: absolute;
+    left: 10px;
+}
+
+.item-details {
+    height: 50px;
+    /* padding-left: 10px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.buttons {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 430px;
+}
+.edit-item {
+    height: 50px;
+    margin-right: 50px;
+    background-color: #6096B4;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.remove-item {
+    height: 50px;
+    width: 100px;
+    background-color: #6096B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.cathegory-pop-up {
+    background-color: #BDCDD6;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.add-button {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.search-bar{
+    background-color: white;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-header {
+    display: flex;
+    justify-content: space-between;
+}
