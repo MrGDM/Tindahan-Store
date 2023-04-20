@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import AdminDashboard from './Components/adminDashboard/adminDashboard';
+import CashierDashboard from './Components/cashierDasboard/cashierDasboard';
 import PosPage from './Components/PosPage/posPage';
 import Topbar from './Components/TopBar/topBar';
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="*" element={<NotPage />} />
         <Route path="/" element={<PosPage />} />
         <Route path="/dashboard" element={<AdminDashboard />} />
+        <Route path="/cashier" element={<CashierDashboard/>}/>
       </Routes>
     </>
   );
