@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import AdminDashboard from './Components/adminDashboard/adminDashboard';
-import CashierDashboard from './Components/cashierDasboard/cashierDasboard';
+import AdminDashboard from './Components/adminDashboard/adminDashboard'
 import PosPage from './Components/PosPage/posPage';
 import Topbar from './Components/TopBar/topBar';
 import Loginform from './Components/adminLogin/adminLogin';
@@ -24,8 +23,14 @@ function App() {
       <Routes>
         <Route path="*" element={<NotPage />} />
         <Route path="/" element={<PosPage />} />
-        <Route path="/dashboard" element={<AdminDashboard />} />
         <Route path="/cashier" element={<CashierDashboard/>}/>
+        <Route path="/admin" element={<Loginform />} />
+        <Route path="/dashboard" element={<>
+          <Topbar />
+          <AdminDashboard />
+        </>
+        }
+        />
       </Routes>
     </>
   );
