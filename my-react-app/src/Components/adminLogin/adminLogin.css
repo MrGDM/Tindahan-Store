@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: "CustomFont";
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url(https://fonts.google.com/specimen/Inter);
+}
+div.containers {
+    background-color: #88BBD1;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cover {
+    background-color: #E3E9FF;
+    border-radius: 20px;
+    width: 550px;
+    height: 350px;
+    flex-direction: column;
+    display: flex;
+}
+.user-input {
+    border-width: 0px;
+    outline-style: none;
+    border-radius: 7px;
+    font-size: 17px;
+    width: 450px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 45px;
+}
+.login-button {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.admin-text{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+div.top{
+    height: 45px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #47565F;
+}
+.texts{
+    padding-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+div.btn-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.bot {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}

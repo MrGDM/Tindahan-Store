@@ -20,7 +20,7 @@ div.ad {
 }
 .drop-down-admin {
     width: 220px;
-    height: 150px;
+    height: 300px;
     position: absolute;
     background-color: #FBFBFB;
     overflow: hidden;
@@ -40,4 +40,8 @@ div.ad {
     align-items: center;
     transition-property: background-color;
     transition-timing-function: linear;
+}
+div.usericon{
+    margin-top: -40px;
+    padding-left: 10px;
 }
